@@ -14,5 +14,5 @@ app.use(express.json());
 app.use(routes);
 
 app.listen(8888, () => {
-  console.log('server is runnning....')
+  console.log('server is runnning on 8888')
 });
